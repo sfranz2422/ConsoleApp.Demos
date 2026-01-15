@@ -21,7 +21,6 @@
              derived from the initial values. The algorithm uses two rolling variables `a` and `b`.
  - The program prints the result to the console. If an unrecognized operation is provided, "Invalid Input" is shown.
  - Known limitations:
-     * No validation for division by zero.
      * Fibonacci implementation uses 32-bit integers and may overflow for large indices.
      * Input validation uses exceptions for control flow; acceptable for this demo but not ideal for production code.
 */
@@ -117,7 +116,15 @@ while (keepGoing == true)
 
         case "/":
             // Integer division (will throw for division by zero)
-            answer = num1 / num2;
+            try
+            {
+                answer = num1 / num2;
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine("Division by zero not allowed");
+                break;
+            }
             break;
 
         case "fib":
