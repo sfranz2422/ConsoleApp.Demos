@@ -1,9 +1,11 @@
 <Solution>
   <Project Path="ConsoleApp.ConditionsAndDecisions/ConsoleApp.ConditionsAndDecisions.csproj" Id="0bcf8e59-c23e-4068-8ff5-dea815d20362" />
+  <Project Path="ConsoleApp.DateTime/ConsoleApp.DateTime.csproj" Id="5db34ef3-1db6-4cf1-bfc5-996dbf4cfce7" />
   <Project Path="ConsoleApp.ExceptionHandlingDemo/ConsoleApp.ExceptionHandlingDemo.csproj" Id="0ef2eb29-669c-4fa2-b065-6817045c7134" />
   <Project Path="ConsoleApp.ForLoops/ConsoleApp.ForLoops.csproj" Id="1c38374e-a472-471c-b499-e3e35a0dc172" />
   <Project Path="ConsoleApp.Operators/ConsoleApp.Operators.csproj" Id="c868f095-92f1-463b-b54d-27f70cc11682" />
   <Project Path="ConsoleApp.SampleCalculator/ConsoleApp.SampleCalculator.csproj" Id="ade8baa8-7cc2-4cdd-b0d7-403b1d924e42" />
+  <Project Path="ConsoleApp.StringDates/ConsoleApp.StringDates.csproj" Id="a1f3d262-bf10-49d9-b9ce-435a5acb05a8" />
   <Project Path="ConsoleApp.UserInputDemo/ConsoleApp.UserInputDemo.csproj" />
   <Project Path="ConsoleApp.VariablesDemo/ConsoleApp.VariablesDemo.csproj" />
   <Project Path="ConsoleApp2.OutputDemo/ConsoleApp2.OutputDemo.csproj" />

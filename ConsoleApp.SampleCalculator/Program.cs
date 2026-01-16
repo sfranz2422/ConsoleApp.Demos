@@ -123,7 +123,8 @@ while (keepGoing == true)
             catch (DivideByZeroException ex)
             {
                 Console.WriteLine("Division by zero not allowed");
-                break;
+                // continue to start next over. 
+                continue;
             }
             break;
 
